@@ -22,7 +22,19 @@ def conversion():
         print(f"Numero decimal[{numero}]: {decimal}" )
 
 
-    """decimal = (int(str(binario), 2))
-        print(decimal)"""
-        
-conversion()
+def Bindec (n):
+    s=0
+    i=0
+    print("el binario", n)
+    while (n>=1):
+        d = n%10
+        n = int(n/10)
+        s = s+d*pow(2,i)
+        i=i+1
+    print("corresponde al numero",s)
+
+numero = int(input("Ingrese el numero binario: ")) 
+
+
+
+#conversion()
