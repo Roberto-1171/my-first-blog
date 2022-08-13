@@ -34,7 +34,7 @@ def Bindec (n):
     print("corresponde al numero",s)
 
 numero = int(input("Ingrese el numero binario: ")) 
-
+Bindec(numero)
 
 
 #conversion()
